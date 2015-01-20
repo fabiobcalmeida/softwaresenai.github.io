@@ -1,0 +1,27 @@
+{
+  "name": "cimatecsoftware.github.io",
+  "version": "1.0.0",
+  "description": "blog cimatec software",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SENAINQTS/cimatec-blog.git"
+  },
+  "author": "NQTS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SENAINQTS/cimatec-blog/issues"
+  },
+  "homepage": "https://github.com/SENAINQTS/cimatec-blog",
+  "devDependencies": {
+    "browser-sync": "^1.9.0",
+    "gulp": "^3.8.10",
+    "gulp-imagemin": "^2.1.0",
+    "gulp-less": "^2.0.1",
+    "gulp-plumber": "^0.6.6",
+    "run-sequence": "^1.0.2"
+  }
+}
