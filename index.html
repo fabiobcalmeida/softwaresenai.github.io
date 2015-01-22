@@ -6,7 +6,7 @@ layout: default
 		<div class="row">
 			{% for post in site.posts %}
 				<div class="col-md-4">
-					<h2>{{ page.date | date: "%b %-d, %y " }}</h2>
+					<h2>{{ post.date | date: "%b %-d, %y " }}</h2>
 					<div class="categoria">
 						<a href="/"><h4>{{ post.description }}</h4></a>
 					</div>
@@ -16,7 +16,7 @@ layout: default
 					<footer>
 						<div class="author-post">
 							<div class="photo">
-								<img src="http://localhost:3000/assets/img/marcus-silva.jpg" alt="Marcus Silva">
+								<img itemprop="image" src="http://localhost:3000/assets/img/marcus-silva.jpg" alt="Marcus Silva">
 								<span>Marcus Silva</span>
 							</div>
 						</div>
