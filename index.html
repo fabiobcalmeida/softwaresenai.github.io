@@ -8,18 +8,21 @@ layout: default
 				<div class="col-md-4">
 					<h2>{{ page.date | date: "%b %-d, %y " }}</h2>
 					<div class="categoria">
-						<a href="/"><h4>{{ post.description }}</h4></a>					
-					</div>					
-					<a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
-					<!-- <img src="/assets/img/marcus-silva.png" alt="Marcus Silva"> -->
-					<div class="author-post">
-						<div class="photo">
-							<img src="http://localhost:3000/assets/img/marcus-silva.jpg" alt="Marcus Silva">
-							<span>Marcus Silva</span>
-						</div> 
+						<a href="/"><h4>{{ post.description }}</h4></a>
 					</div>
-				</div>
+					<div class="titulo-post">
+						<a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>	
+					</div>					
+					<footer>
+						<div class="author-post">
+							<div class="photo">
+								<img src="http://localhost:3000/assets/img/marcus-silva.jpg" alt="Marcus Silva">
+								<span>Marcus Silva</span>
+							</div>
+						</div>
+					</footer>
+				</div>				
 			{% endfor %}
-		</div>	
+		</div>
 	</div>
 </section>
