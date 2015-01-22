@@ -2,12 +2,24 @@
 layout: default
 ---
 <section>
-  {% for post in site.posts %}
-    <div class="posts">      
-        <h2>{{ post.title }}</h2>
-        <span>{{Marcus Silva}}</span>
-        <a href="{{ post.url | prepend: site.baseurl }}">Como utilizar o Vagrant em ambiente ? </a>
-        <!-- <img src="/assets/img/marcus-silva.png" alt="Marcus Silva"> -->      
-    </div>
-  {% endfor %}
+	<div class="posts">
+		<div class="row">
+			{% for post in site.posts %}
+				<div class="col-md-4">
+					<h2>{{ page.date | date: "%b %-d, %y " }}</h2>
+					<div class="categoria">
+						<a href="/"><h4>{{ post.description }}</h4></a>					
+					</div>					
+					<a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+					<!-- <img src="/assets/img/marcus-silva.png" alt="Marcus Silva"> -->
+					<div class="author-post">
+						<div class="photo">
+							<img src="http://localhost:3000/assets/img/marcus-silva.jpg" alt="Marcus Silva">
+							<span>Marcus Silva</span>
+						</div> 
+					</div>
+				</div>
+			{% endfor %}
+		</div>	
+	</div>
 </section>
