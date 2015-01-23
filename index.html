@@ -5,19 +5,22 @@ layout: default
 	<div class="posts">
 		<div class="row">
 			{% for post in site.posts %}
-				<div class="col-md-4">
+				<div class="col">
 					<h3>{{ post.date | date: "%d %b  %Y " }}</h3>
 					<div class="categoria">
 						<a href="/"><h4>{{ post.description }}</h4></a>
 					</div>
 					<div class="titulo-post">
 						<a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>	
-					</div>					
+					</div>
+
 					<footer>
 						<div class="author-post">
 							<div class="photo">
 								<img itemprop="image" src="https://avatars.githubusercontent.com/{{ post.github}}" alt="{{ post.author-name }}">
-								<span>{{ post.author-name }}</span>
+								<span>
+									<a href="github.com/{{post.github}}">{{ post.author-name }}</a>
+								</span>
 							</div>
 						</div>
 					</footer>

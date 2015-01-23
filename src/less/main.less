@@ -1,13 +1,28 @@
+*{
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+}
+
 body{
 	padding: 0;
 	margin:0;
 	border:0;	
 }
 
-*{
-	position: relative;
-	font-family: 'Roboto', sans-serif;
+.border-radius(@radius: 150px){
+	border-radius: @radius;
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
 }
+
+.border-color(@the-border: 1px ,@color: #4790ca){
+	border: @the-border solid @color;
+}
+
+
+
+
+
 
 
 @import 'src/less/header.less';
