@@ -1,12 +1,15 @@
 <nav class="menu-outer">    
     <ul>
-      <li><a href='#'>Complex Systems</a></li>
-      <li><a href='#'>Perceptual Computing</a></li>
-      <li><a href='#'>Robotics Operating Systens</a></li>
-      <li><a href='#'>Computer Vision</a></li>
-      <li><a href='#'>High Performance Computing</a></li>
-      <li><a href='#'>Big Data</a></li>
-      <li><a href='#'>Mobile Computing</a></li>
-      <li><a href='#'>Software Testing and Validation</a>  </li>
+      {% for post in site.categories %}
+        <li>Teste</li>
+        <!-- <li><a href='#'>Complex Systems</a></li>
+        <li><a href='#'>Perceptual Computing</a></li>
+        <li><a href='#'>Robotics Operating Systens</a></li>
+        <li><a href='#'>Computer Vision</a></li>
+        <li><a href='#'>High Performance Computing</a></li>
+        <li><a href='#'>Big Data</a></li>
+        <li><a href='#'>Mobile Computing</a></li>
+        <li><a href='#'>Software Testing and Validation</a>  </li> -->
+      {% endfor %}
     </ul>
 </nav>
