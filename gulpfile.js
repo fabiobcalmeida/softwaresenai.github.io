@@ -8,12 +8,17 @@ var runSequence  = require('run-sequence');
 var cp           = require('child_process');
 var uglify 		 = require('gulp-uglify');
 var concat 		 = require('gulp-concat');
+var	jeet         = require('jeet');
+var rupture      = require('rupture');
+var koutoSwiss   = require('kouto-swiss');
+var prefixer     = require('gulp-autoprefixer');
 
 
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
 
+//Monta o site do Jekyll
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
     //Linux/Mac
@@ -22,12 +27,12 @@ gulp.task('jekyll-build', function (done) {
     return cp.exec('jekyll', ['build'], {stdio: 'inherit'}).on('close', done);
 });
 
-
+//Refaz o site e atualiza a página
 gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
     browserSync.reload();
 });
 
-
+//Espera até que o jekyll-build seja executado e então levanta o servidor utilizando o _site como pasta raiz
 gulp.task('browser-sync', ['less', 'jekyll-build'], function() {
     browserSync({
         server: {
@@ -46,8 +51,12 @@ gulp.task('browser-sync', ['less', 'jekyll-build'], function() {
 
 //Less Task
 gulp.task('less',function(){
-	gulp.src('src/less/main.less')	
-	.pipe(less({compress: true}))
+	gulp.src('src/less/main.less')
+	//.pipe(pumbler())	
+	.pipe(less({
+		use:[koutoSwiss(), prefixer(), jeet(),rupture()],
+		compress: true
+	}))
 	.pipe(gulp.dest('_site/assets/css'))
 	.pipe(browserSync.reload({stream:true}))
 	.pipe(gulp.dest('assets/css'))

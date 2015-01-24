@@ -1,31 +1,35 @@
 ---
 layout: default
 ---
-<section>
-	<div class="posts">
+<main role="main" class="home" intemprop="mainContentOfPage" intemscope="intemscope" itemtype="http://schema.org/Blog">
+	<div class="box-post">
 		<div class="row">
 			{% for post in site.posts %}
-				<div class="col">
-					<h3>{{ post.date | date: "%d %b  %Y " }}</h3>
-					<div class="categoria">
+				<article class="post-item" role="article" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+					<time datetime="{{ post.date | date_to_xmlschema }}">
+						<meta itemprop="datePublished" content="{{post.date}}">
+						<h3>{{ post.date | date: "%d %b  %Y " }}</h3>	
+					</time>
+					
+					<div class="categoria" itemscope>
 						<a href="/"><h4>{{ post.description }}</h4></a>
 					</div>
-					<div class="titulo-post">
-						<a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>	
+					<div class="titulo-post" itemprop="url">
+						<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>	
 					</div>
 
-					<footer>
+					<address>
 						<div class="author-post">
 							<div class="photo">
-								<img itemprop="image" src="https://avatars.githubusercontent.com/{{ post.github}}" alt="{{ post.author-name }}">
+								<img itemprop="photo" src="https://avatars.githubusercontent.com/{{ post.github}}" alt="{{ post.author-name }}">
 								<span>
 									<a href="github.com/{{post.github}}">{{ post.author-name }}</a>
 								</span>
 							</div>
 						</div>
-					</footer>
-				</div>				
+					</address>
+				</article>				
 			{% endfor %}
 		</div>
 	</div>
-</section>
+</main>
