@@ -11,10 +11,10 @@ layout: default
 						<h3>{{ post.date | date: "%d %b  %Y " }}</h3>	
 					</time>
 					
-					<div class="categoria" itemscope>
+					<div class="categoria" itemscope itemprop="description">
 						<a href="/"><h4>{{ post.description }}</h4></a>
 					</div>
-					<div class="titulo-post" itemprop="url">
+					<div class="titulo-post" itemprop="name">
 						<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>	
 					</div>
 
