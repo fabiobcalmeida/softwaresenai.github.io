@@ -3,7 +3,6 @@ layout: default
 ---
 <main role="main" class="home" intemprop="mainContentOfPage" intemscope="intemscope" itemtype="http://schema.org/Blog">
 <div class="col-md-12 row">
-<div class="col-md-10">
 	{% for post in site.posts %}
 		<article class="post-item" role="article" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 			<time datetime="{{ post.date | date_to_xmlschema }}">
@@ -29,5 +28,4 @@ layout: default
 		</article>
 	{% endfor %}
 	</div>
-</div>
 </main>
