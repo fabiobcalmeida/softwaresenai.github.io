@@ -1,37 +1,76 @@
 *{
 	position: relative;
 	font-family: 'Roboto', sans-serif;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	&:before, :after {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
 }
 
 body{
 	padding: 0;
 	margin: 0;
-	border: 0;	
+	border: 0;
 }
 
-			  		
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.col-md-12 {
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+@media (min-width: 992px) {
+ .col-md-12 {
+		float: left;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+}
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+
 h1, h2, h3, h4, h5, h6 {color: #4790ca}
-
 .border-radius(@radius: 150px){
-	border-radius: @radius;
-	-webkit-border-radius: @radius;
-	-moz-border-radius: @radius;
+border-radius: @radius;
+-webkit-border-radius: @radius;
+-moz-border-radius: @radius;
 }
-
 .border-color(@the-border: 1px ,@color: #4790ca){
-	border: @the-border solid @color;
+border: @the-border solid @color;
 }
-
 .border-top(@the-border:1px, @color: #01629c){
-	border-top: @the-border solid @color;
+border-top: @the-border solid @color;
 }
-
 .photo(@x: 40px, @y: 40px){
-	width: @x;
-	height: @y;
-} 
-
-
+width: @x;
+height: @y;
+}
 @import 'src/less/header.less';
 @import 'src/less/header-post.less';
 @import 'src/less/search.less';

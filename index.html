@@ -2,34 +2,32 @@
 layout: default
 ---
 <main role="main" class="home" intemprop="mainContentOfPage" intemscope="intemscope" itemtype="http://schema.org/Blog">
-	<div class="box-post">
-		<div class="row">
-			{% for post in site.posts %}
-				<article class="post-item" role="article" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-					<time datetime="{{ post.date | date_to_xmlschema }}">
-						<meta itemprop="datePublished" content="{{post.date}}">
-						<h3>{{ post.date | date: "%d %b  %Y " }}</h3>	
-					</time>
-					
-					<div class="categoria" itemscope itemprop="description">
-						<a href="/"><h4>{{ post.description }}</h4></a>
+<div class="col-md-12 row">
+<div class="col-md-10">
+	{% for post in site.posts %}
+		<article class="post-item" role="article" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+			<time datetime="{{ post.date | date_to_xmlschema }}">
+				<meta itemprop="datePublished" content="{{post.date}}">
+				<h3>{{ post.date | date: "%d %b  %Y " }}</h3>
+			</time>			
+			<div class="categoria" itemscope itemprop="description">
+				<a href="/"><h4>{{ post.description }}</h4></a>
+			</div>
+			<div class="titulo-post" itemprop="name">
+				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</div>
+			<address>
+				<div class="author-post">
+					<div class="photo">
+						<img itemprop="photo" src="https://avatars.githubusercontent.com/{{ post.github}}" alt="{{ post.author-name }}">
+						<span>
+						<a href="github.com/{{post.github}}">{{ post.author-name }}</a>
+						</span>
 					</div>
-					<div class="titulo-post" itemprop="name">
-						<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>	
-					</div>
-
-					<address>
-						<div class="author-post">
-							<div class="photo">
-								<img itemprop="photo" src="https://avatars.githubusercontent.com/{{ post.github}}" alt="{{ post.author-name }}">
-								<span>
-									<a href="github.com/{{post.github}}">{{ post.author-name }}</a>
-								</span>
-							</div>
-						</div>
-					</address>
-				</article>				
-			{% endfor %}
-		</div>
+				</div>
+			</address>
+		</article>
+	{% endfor %}
 	</div>
+</div>
 </main>

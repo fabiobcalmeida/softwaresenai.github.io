@@ -8,10 +8,10 @@ var runSequence  = require('run-sequence');
 var cp           = require('child_process');
 var uglify 		 = require('gulp-uglify');
 var concat 		 = require('gulp-concat');
-var	jeet         = require('jeet');
-var rupture      = require('rupture');
-var koutoSwiss   = require('kouto-swiss');
-var prefixer     = require('gulp-autoprefixer');
+//var	jeet         = require('jeet');
+// var rupture      = require('rupture');
+// var koutoSwiss   = require('kouto-swiss');
+// var prefixer     = require('gulp-autoprefixer');
 
 
 var messages = {
@@ -54,7 +54,7 @@ gulp.task('less',function(){
 	gulp.src('src/less/main.less')
 	//.pipe(pumbler())	
 	.pipe(less({
-		use:[koutoSwiss(), prefixer(), jeet(),rupture()],
+		// use:[koutoSwiss(), prefixer(), jeet(),rupture()],
 		compress: true
 	}))
 	.pipe(gulp.dest('_site/assets/css'))
