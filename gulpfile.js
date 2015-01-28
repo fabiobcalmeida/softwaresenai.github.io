@@ -8,11 +8,6 @@ var runSequence  = require('run-sequence');
 var cp           = require('child_process');
 var uglify 		 = require('gulp-uglify');
 var concat 		 = require('gulp-concat');
-//var	jeet         = require('jeet');
-// var rupture      = require('rupture');
-// var koutoSwiss   = require('kouto-swiss');
-// var prefixer     = require('gulp-autoprefixer');
-
 
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -53,8 +48,7 @@ gulp.task('browser-sync', ['less', 'jekyll-build'], function() {
 gulp.task('less',function(){
 	gulp.src('src/less/main.less')
 	//.pipe(pumbler())	
-	.pipe(less({
-		// use:[koutoSwiss(), prefixer(), jeet(),rupture()],
+	.pipe(less({		
 		compress: true
 	}))
 	.pipe(gulp.dest('_site/assets/css'))

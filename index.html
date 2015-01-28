@@ -4,7 +4,7 @@ layout: default
 <main role="main" class="home" intemprop="mainContentOfPage" intemscope="intemscope" itemtype="http://schema.org/Blog">
 <div class="columns">
 	{% for post in site.posts %}
-		<article class="post-list col-xs-6 col-sm-4" role="article" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+		<article class="post-list" role="article" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 			<meta itemprop="datePublished" content="{{post.date}}">
 			<time datetime="{{ post.date | date_to_xmlschema }}">
 			<h3>
