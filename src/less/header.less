@@ -1,13 +1,12 @@
-
-.header-site{
+.header-site{    
     min-height: 8rem;
-    //border-bottom: 1px solid #eee;
+    background: #0091cc;  
     .logo{
         top: 10px;
-        left: 15%;
+        left: 10%;
         width: 70%;
         height: auto;
-        img{
+        svg{
             max-width: 30%;
             height: auto;
         }
@@ -31,23 +30,46 @@
 }
 
 @media screen and (max-width: 400px) {
-.header-site{
-    min-width: 300px;   
-    border-bottom: 10px solid #eee; 
-    .logo{  
-        top:20px;       
-        width: 100%;        
-        img{
-            right: 35px;
-            max-width: 60%;
-            height: auto;
+    .header-site{     
+        min-height: 10rem;   
+        .logo{  
+            margin: 0 auto;
+            top:10px;       
+            width: 80%;     
+            img{
+                max-width: 220px;
+            }
+        }
+    }
+    .search-form{
+        float: left;     
+        right: 80px;   
+        .search-field{            
+            top: -20px;
+            width: 340px;                        
         }
     }
 }
-.search-form{
-    display: none;           
-    .search-field{
-    
+
+@media screen and (max-width: 800px){
+    .header-site{     
+        min-height: 10rem;   
+        .logo{              
+            margin: 0 auto;
+            top:10px;       
+            width: 100%;     
+            img{
+                display: block;
+                max-width: 320px;
+                left: 165px;
+            }
+        }
     }
-}
+    .search-form{
+        .search-field{                        
+            top: -20px;            
+            right: 160px;
+            width: 720px;                        
+        }
+    }
 }
