@@ -2,8 +2,8 @@
 layout: post
 title:  "Utilizando funções no jQuery"
 date:   2015-01-23 09:39
-categories: front-end
-description: "Front End"
+categories: infra
+description: "Infra"
 github: "felisio"
 author-name: "Fabio Elisio"
 ---

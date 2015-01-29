@@ -1,10 +1,18 @@
 <footer role="contentinfo">
 	<div class="container">	
 		<div class="logo-nqts pull-left">
-			<img src="http://10.88.112.48:3000/assets/img/nqts-logo.png" alt="">
+			<img src="/assets/img/nqts-logo.png" alt="">
 		</div>	
 		<div class="logo-senai pull-right">
-			<img src="http://10.88.112.48:3000/assets/img/logo_senai.png" alt="">
+			<img src="/assets/img/logo_senai.png" alt="">
 		</div>
 	</div>	
 </footer>
+<script type="text/javascript">
+	var container = document.querySelector('.container');
+		var msnry = new Masonry( container, {
+	  	// options
+	  	columnWidth: 200,
+	  	itemSelector: '.item'
+	});
+</script>

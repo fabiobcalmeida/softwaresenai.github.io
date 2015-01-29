@@ -2,7 +2,7 @@
 layout: post
 title:  "Como utilizar o Vagrant em ambiente ?"
 date:   2015-01-19 14:47:42
-categories: software-testing-and-validation
+categories: Software Test
 description: "Software Testing and Validation ?"
 github: "mvfsilva"
 author-name: "Marcus Silva"

@@ -3,7 +3,7 @@ layout: post
 title:  "Funções no jQuery!"
 date:   2015-01-23 09:39
 categories: jekyll update
-description: "Utilizando funções no jQuery"
+description: "Front End"
 github: "eriklimamolykote"
 author-name: "Erik Lima"
 ---

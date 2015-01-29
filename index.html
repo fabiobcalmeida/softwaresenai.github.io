@@ -1,32 +1,27 @@
 ---
 layout: default
 ---
-<main role="main" class="home" intemprop="mainContentOfPage" intemscope="intemscope" itemtype="http://schema.org/Blog">
-<div class="columns">
-	{% for post in site.posts %}
-		<article class="post-list" role="article" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-			<meta itemprop="datePublished" content="{{post.date}}">
-			<time datetime="{{ post.date | date_to_xmlschema }}">
-			<h3>
-			<span class="day"> {{ post.date | date: "%d" }}  </span>
-			<span class="month">{{ post.date | date: "%b" }} </span>
-			<span class="year">{{ post.date | date: "%Y" }}    </span>
-			</h3>
-			</time>
-			<div class="titulo-post" itemprop="name">
-				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			</div>
-			<address>
-				<div class="author-post">
-					<div class="photo">
-						<img itemprop="photo" src="https://avatars.githubusercontent.com/{{ post.github}}" alt="{{ post.author-name }}">
-						<span>
-						<a href="github.com/{{post.github}}">{{ post.author-name }}</a>
-						</span>
-					</div>
-				</div>
-			</address>
-		</article>
-	{% endfor %}
-</div>
+<main role="main" class="home container" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+{% for post in site.posts %}
+    <article class="post-list item" role="article" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+        <div class="grid">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                <meta itemprop="datePublished" content="{{post.date}}">
+                <time datetime="{{ post.date | date_to_xmlschema }}">
+                    <h3>
+                        <span class="day"> {{ post.date | date: "%d" }}  </span>
+                        <span class="month">{{ post.date | date: "%b" }} </span>
+                        <span class="year">{{ post.date | date: "%Y" }}  </span>
+                    </h3>
+                </time>
+                <p class="post-category">{{ post.description }}</p>
+                <p class="post-title" itemprop="name">{{ post.title }}</p>
+                <div class="author-post" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                    <img itemprop="image"  src="https://avatars.githubusercontent.com/{{ post.github}}" alt="{{ post.author-name }}">
+                    <span itemprop="name">{{ post.author-name }}</span>
+                </div>
+            </a>
+        </div>
+    </article>
+{% endfor %}
 </main>

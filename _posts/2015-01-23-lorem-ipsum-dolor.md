@@ -3,7 +3,7 @@ layout: post
 title:  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, tempore."
 date:   2015-01-23 08:24:42
 categories: configuracao-teste
-description: "Configuração e Teste"
+description: "Software Test"
 github: "brunovmontes"
 author-name: "Bruno Montes"
 ---

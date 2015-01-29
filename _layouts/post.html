@@ -5,27 +5,26 @@
 		<section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 			{% include header-default.html %}
 			<div class="header-post">
-				<div class="content">
-					<meta itemprop="datePublished" content="{{ page.date }}">
+				<!-- <div class="content"> -->
+					<!-- <meta itemprop="datePublished" content="{{ page.date }}">
 					{% if page.date %}
 						<p class="date">{{ page.date | date_to_string }}</p>
-					{% endif %}
+					{% endif %} -->
 					<h1 class="post-title" itemprop="name">{{ page.title }}</h1>
-					<!--<p itemprop="description" class="subtitle">{{ page.description }}</p>-->
-					
-					<div class="author-post">
-						<div class="photo">
-							<a href="github.com/{{page.github}}">
-								<img itemprop="photo" src="https://avatars.githubusercontent.com/{{ page.github }}" alt="{{ page.author-name }}">
-								<span class="author-name">
-								{{ page.author-name }}
-								</span>
-							</a>
-						</div>
-					</div>
+
+			<!-- 	<section class="author" itemprop="author">
+					<div class="details" itemscope itemtype="http://schema.org/Person">
+						<img itemprop="image" class="img-rounded" src="/assets/img/blog-author.jpg" alt="Willian Justen">
+						<h1 class="name">
+							<a itemprop="name" href="https://plus.google.com/+WillianJustendeVasconcellos/posts">{{.author-name}}</a>
+						</h1>
+						<p class="desc"><span itemprop="jobTitle">Desenvolvedor Front End</span> e nerd nas horas vagas</p>
+				<a itemprop="email" class="email" href="mailto:willianjustenqui@gmail.com">willianjustenqui@gmail.com</a>
 				</div>
-			</div>
-			
+				</section> -->
+
+				</div>
+			<!-- </div> -->
 			<article role="article" id="post" class="post-content" itemprop="articleBody">
 				{{content}}
 			</article>
