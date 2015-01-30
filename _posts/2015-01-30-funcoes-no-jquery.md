@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Funções no jQuery!"
-date:   2015-01-23 12:39
-categories: jekyll update
+date:   2015-01-30 19:39
+categories: FrontEnd
 description: "Front End"
 github: "eriklimamolykote"
 author-name: "Erik Lima"

@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Testes agéis"
-date:   2015-01-23 11:24:42
-categories: software-testing-and-validation
-description: "Software Testing"
+title:  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, tempore."
+date:   2015-01-23 08:24:42
+categories: configuracao-teste
+description: "Software Test"
 github: "brunovmontes"
 author-name: "Bruno Montes"
 ---
