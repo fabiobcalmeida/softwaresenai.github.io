@@ -1,33 +1,17 @@
 
-//.center{ margin: 0 auto; left: 20px;}
 .post-list {	
-	  margin-left: auto;
-    margin-right: auto;
+    width:  320px;
     padding: 25px;
 	margin-top: 20px;		
     padding-bottom: 60px;
-    width: 28%;    
     cursor: pointer;
-	
-	// --------------//
-	-webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
-	-moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.75);
-	box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+	.box-shadow;
 	&:hover{
-		-webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 1.75);
-		-moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 1.75);
-		box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 1.75);
-	
-	// --------------//
-		-webkit-transform: translate(0px,  -2px);
-    	-moz-transform: translate(0px,  -2px);
-    	-ms-transform: translate(0px,  -2px);
-    	-o-transform: translate(0px,  -2px);
-    	transform: translate(0px,  -2px);
+		.box-shadow-hover;
+		.transform;
     	opacity: 0.85;        
 	}		
 	
-	//------------//	
 	&:nth-child(odd) {
 		 background: #FFF; 
 		span, p{ color:#00619f;} 
@@ -45,44 +29,29 @@
 
 //Artigos
 .post-content{	
-	padding: 2.5rem 0;
 	font-size: 1.85rem;
-	width: auto;
 	max-width: 80%;
-	float: none;
-	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	padding-left: 0;
-	padding-right: 0;
-	padding: 0 1.25rem;	
 	font-weight: 300;
-	font-style: normal;	
-	line-height: 2;
+	line-height: 2.3;
 	letter-spacing: .01rem;
-	p{
-		-webkit-margin-before: 1em;
-		-webkit-margin-after: 1em;
-		-webkit-margin-start: 0px;
-		-webkit-margin-end: 0px;
-	}
+	p{.webkit-margin;}
 }
+
+
 /////////////////
 .post-link > .post-category {    
-    border:1px solid;    
+	.border-color;
     float: left;
     padding: 5px 10px;
     margin:30px 0px 15px 0px;
-    font-size: 16px;    
-
-    -webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
+	.border-radius(10px);
 }
 .post-link > .post-title {
-    clear: both;    
-   // line-height: 1.2em;
+    clear: both;  
     font-size: 3.2rem;
+    font-weight: 300;
     margin: 20px 0;    
     text-align: left;
 }
@@ -100,17 +69,11 @@ a:hover{text-decoration: none;}
 	}
 }
 
-
-
-
-
-
 //media querys
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 680px) {
-
 	.item{
 		width: 90%;
 	}
