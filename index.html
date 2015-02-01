@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-
+<div class="seila">
 <main role="main" class="home container" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-<div class="center">
+<!-- <div class="center"> -->
 {% for post in site.posts %}
-    <article class="post-list item" role="article" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+    <article class="post-list item col-md-4" role="article" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
         <div class="grid">
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                 <meta itemprop="datePublished" content="{{post.date}}">
@@ -26,5 +26,6 @@ layout: default
         </div>
     </article>
 {% endfor %}
-</div>
+<!-- </div> -->
 </main>
+</div>
