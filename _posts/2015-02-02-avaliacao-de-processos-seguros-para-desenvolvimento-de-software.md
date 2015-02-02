@@ -1,11 +1,18 @@
 ---
 layout: post
-title:  "Avaliação de processos seguros para desenvolvimento de software"
-date:   2015-02-02 15:33:36
-description: "Segurança"
+title:  "TESTE"
+date:   2015-01-30 10:39
+categories: "TESTE"
+description: "TESTE"
 github: "felisio"
-author-name: "Fábio Elisio"
+author-name: "Fabio Elisio"
+twitter_text: "Utilizando funções no jQuery!!"
+tags:
+- jquery
+- javascript
+- frontend
 ---
+
 
 #Avaliação de processos seguros para desenvolvimento de software.
 
