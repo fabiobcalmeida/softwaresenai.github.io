@@ -361,17 +361,17 @@ Albuquerque, Ricardo – Segurança no Desenvolvimento de software: como garanti
 cliente usando a ISO/IEC, Ricardo Albuquerque, Bruno Ribeiro. – Rio de Janeiro: Campus, 2002.
 
 
-https://www.owasp.org/images/e/e5/OWASP_Top10_2010_JavaEE_PT-BR.pdf acessado em: 03 de Abril de 2013.
+[https://www.owasp.org](https://www.owasp.org/images/e/e5/OWASP_Top10_2010_JavaEE_PT-BR.pdf acessado em: 03 de Abril de 2013.)
 
 
 http://www.sans.org/top25-software-errors/ acessado em: 07 de maio de 2013.
 
 
-http://projects.webappsec.org/w/page/13246989/Web%20Application%20Security%20Statistics acessado em 08 de maio de 2013.
+[http://projects.webappsec.org](http://projects.webappsec.org/w/page/13246989/Web%20Application%20Security%20Statistics) acessado em 08 de maio de 2013.
 
 
 OWASP TOP 10 2010 – The Ten Most Critical Web Application Security Risks, 
-https://www.owasp.org/images/1/10/OwaspTop10_ptPT_v2.pdf acessado em: 03 de Abril de 2013.
+[https://www.owasp.org/](https://www.owasp.org/images/1/10/OwaspTop10_ptPT_v2.pdf) acessado em: 03 de Abril de 2013.
 
 
 OWASP TOP 10 JAVA EE –  Os 10 riscos mais críticos para aplicações
