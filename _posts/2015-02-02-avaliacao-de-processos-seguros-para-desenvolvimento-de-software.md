@@ -72,8 +72,8 @@ Cross-Site Scripting, information leakage, SQL injection, insufficient Transport
 HTTP Response Splitting, o gráfico abaixo mostra a probabilidade de detecção dessas vulnerabilidades nas aplicações web:
 
 
-> Fonte: http://projects.webappsec.org/w/page/
-13246989/Web%20Application%20Security%20Statistics
+> Fonte: [http://projects.webappsec.org](http://projects.webappsec.org/w/page/
+13246989/Web%20Application%20Security%20Statistics)
 
 
 Baseado nesses estudos de vulnerabilidades instituições como a OWASP criaram também seu top 10 de falhas em segurança 
