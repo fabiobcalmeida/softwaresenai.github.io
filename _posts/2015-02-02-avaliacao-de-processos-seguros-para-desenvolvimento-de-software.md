@@ -10,7 +10,6 @@ tags:
 - OWASP
 - OWASC
 twitter_text: "Avaliação de processos seguros para desenvolvimento de software"
-
 ---
 
 #Avaliação de processos seguros para desenvolvimento de software.
