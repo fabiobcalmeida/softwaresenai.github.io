@@ -1,63 +1,65 @@
-
-.post-list {	
-    width:  320px;
-    padding: 25px;
-	margin-top: 20px;		
-    padding-bottom: 60px;
-    cursor: pointer;
-	.box-shadow;
-	&:hover{
-		.box-shadow-hover;
-		.transform;
-    	opacity: 0.85;        
-	}		
-	
-	&:nth-child(odd) {
-		 background: #FFF; 
-		span, p{ color:#00619f;} 
-		 .day, .month, .year{color:#000; }
-	}
-	
-	&:nth-child(even) { 
-		background: #00619f; 
-		span, p{ color: #FFF; } 
-		.day, .month, .year{color:#FFF; text-weight:100;}
-	}
-
-
-	.post-link {
-		 .post-category {    
-			.border-color;
-		    .border-radius(10px);
-		    float: left;
-		    padding: 5px 10px;
-		    margin:30px 0px 15px 0px;
+.main{
+	margin: 0px 5%;
+}	
+	.post-list {	
+	    width:  320px;
+	    padding: 25px;
+		margin-top: 20px;		
+	    padding-bottom: 60px;	    
+	    cursor: pointer;
+		.box-shadow;
+		&:hover{
+			.box-shadow-hover;
+			.transform;
+	    	opacity: 0.85;        
+		}		
+		
+		&:nth-child(odd) {
+			 background: #FFF; 
+			span, p{ color:#00619f;} 
+			 .day, .month, .year{color:#000; }
 		}
 		
-		 .post-title {
-		    clear: both;  
-		    font-size: 3.2rem;
-		    font-weight: 300;
-		    margin: 20px 0;    
-		    text-align: left;
+		&:nth-child(even) { 
+			background: #00619f; 
+			span, p{ color: #FFF; } 
+			.day, .month, .year{color:#FFF; text-weight:100;}
 		}
+
+		.post-link {
+			 .post-category {    
+				.border-color;
+			    .border-radius(10px);
+			    float: left;
+			    padding: 5px 10px;
+			    margin:30px 0px 15px 0px;
+			}
+			
+			 .post-title {
+			    clear: both;  
+			    font-size: 3.2rem;
+			    font-weight: 300;
+			    margin: 20px 0;    
+			    text-align: left;
+			}
+		}
+
+
+		a:hover{text-decoration: none;}
+		.author-post{	
+			margin-top: 80px;
+			font-size: 2em;
+			img{			
+				float: left;
+				.photo;
+				.border-radius;
+			}
+			span{			
+				left: 15px;			
+			}
+		}
+
 	}
-
-
-	a:hover{text-decoration: none;}
-	.author-post{	
-		margin-top: 80px;
-		img{			
-			float: left;
-			.photo;
-			.border-radius;
-		}
-		span{			
-			left: 15px;			
-		}
-	}
-
-}
 
 
 
@@ -84,20 +86,16 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
-and (max-device-width : 680px) {
-	.item{
-		width: 90%;
-	}
+and (max-device-width : 680px) {	
+	.item{ width: 90%; }	
 }
 
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 768px) 
-and (max-device-width : 1024px) {	
-	.item{
-		width: 45%;
-	}
+and (max-device-width : 1024px) {		
+	.item{ width: 45%; 	}
 }
 
 /* iPads (landscape) ----------- */
