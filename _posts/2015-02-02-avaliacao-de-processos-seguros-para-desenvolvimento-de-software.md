@@ -8,7 +8,6 @@ author-name: "Fábio Elisio"
 ---
 
 
-#Avaliação de processos seguros para desenvolvimento de software.
 
 **Resumo**
 
