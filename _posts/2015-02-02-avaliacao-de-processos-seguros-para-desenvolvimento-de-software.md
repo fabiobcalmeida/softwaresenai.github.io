@@ -1,15 +1,10 @@
 ---
 layout: post
-title: "Avaliação de processos seguros para desenvolvimento de software"
-date: 2015-02-02 15:33:36
-description: 'Segurança'
+title:  "Avaliação de processos seguros para desenvolvimento de software"
+date:   2015-02-02 15:33:36
+description: "Segurança"
 github: "felisio"
-author-name:"Fábio Elisio"
-tags:
-- Segurança
-- OWASP
-- OWASC
-twitter_text: "Avaliação de processos seguros para desenvolvimento de software"
+author-name: "Fábio Elisio"
 ---
 
 #Avaliação de processos seguros para desenvolvimento de software.
