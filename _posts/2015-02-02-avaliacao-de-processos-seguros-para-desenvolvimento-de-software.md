@@ -5,6 +5,7 @@ date:   2015-02-02 15:33:36
 description: "Segurança"
 github: "felisio"
 author-name: "Fábio Elisio"
+image: '/assets/img/avaliacao-de-processos-seguros-para-desenvolvimento-de-software.jpg'
 ---
 
 ![avaliação de processos seguros para desenvolvimento de software](/assets/img/avaliacao-de-processos-seguros-para-desenvolvimento-de-software.jpg)
