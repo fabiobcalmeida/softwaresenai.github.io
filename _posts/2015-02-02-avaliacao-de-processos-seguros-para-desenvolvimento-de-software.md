@@ -1,16 +1,10 @@
 ---
 layout: post
-title:  "TESTE"
-date:   2015-01-30 10:39
-categories: "TESTE"
-description: "TESTE"
+title:  "Avaliação de processos seguros para desenvolvimento de software"
+date:   2015-02-02 15:33:36
+description: "Segurança"
 github: "felisio"
-author-name: "Fabio Elisio"
-twitter_text: "Utilizando funções no jQuery!!"
-tags:
-- jquery
-- javascript
-- frontend
+author-name: "Fábio Elisio"
 ---
 
 
