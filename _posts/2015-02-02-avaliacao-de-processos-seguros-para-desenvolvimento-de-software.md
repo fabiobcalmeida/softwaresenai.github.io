@@ -7,7 +7,7 @@ github: "felisio"
 author-name: "Fábio Elisio"
 ---
 
-
+![avaliação de processos seguros para desenvolvimento de software](/assets/img/avaliacao-de-processos-seguros-para-desenvolvimento-de-software.jpeg)
 
 **Resumo**
 
