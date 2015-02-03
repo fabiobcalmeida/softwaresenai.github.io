@@ -16,5 +16,7 @@ created_date: "2015-02-02T22:46:32-03:00"
 published: true
 image: "http://farm9.staticflickr.com/8662/16405964476_1f666d3b94_n.jpg"
 releated_posts: []
+tags: []
 
 ---
+<p>teste</p>
