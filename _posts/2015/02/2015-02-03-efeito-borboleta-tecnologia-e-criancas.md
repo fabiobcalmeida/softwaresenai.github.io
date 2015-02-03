@@ -19,9 +19,9 @@ releated_posts: []
 
 <p>Na forma&ccedil;&atilde;o de nossas crian&ccedil;as isto tamb&eacute;m deve ser levado em considera&ccedil;&atilde;o. Alguns pequenos desvios, motivados por contatos com a tecnologia, e como um passe de m&aacute;gica uma crian&ccedil;a tem uma altera&ccedil;&atilde;o significativa na sua forma&ccedil;&atilde;o intelectual com reflexos futuros na sua vida.</p>
 
-<p>Quando eu tinha 13 anos senti o efeito borboleta em mim. Na &eacute;poca do Atari, v&iacute;deo game famoso na d&eacute;cada de 1980, os meus pais fugiram do &ldquo;eu coletivo&rdquo; e me deram microcomputador TK2000. Ter um computador em casa era uma fato raro naqueles tempos.</p>
+<p>Quando eu tinha 13 anos senti o efeito borboleta em mim. Na &eacute;poca do Atari, v&iacute;deo game famoso na d&eacute;cada de 1980, os meus pais fugiram do &ldquo;eu coletivo&rdquo; e me deram microcomputador <a href="http://pt.wikipedia.org/wiki/TK2000">TK2000</a>. Ter um computador em casa era uma fato raro naqueles tempos.</p>
 
-<p>Com muita motiva&ccedil;&atilde;o e um pouco de ajuda de um vizinho aprendi a criar programas para o meu TK2000 enquanto os meus amigos jogavam Atari. Hoje aos 40 anos tenho a n&iacute;tida percep&ccedil;&atilde;o de como aquele pequeno desvio foi importante na minha forma&ccedil;&atilde;o. A tecnologia &eacute; algo que empolga as crian&ccedil;as e nem sempre a escola est&aacute; preparada para utilizar os computadores, celulares, tablets, smart tvs, etc no processo de aprendizado.</p>
+<p>Com muita motiva&ccedil;&atilde;o e um pouco de ajuda de um vizinho aprendi a criar programas para o meu <a href="http://pt.wikipedia.org/wiki/TK2000">TK2000 </a>enquanto os meus amigos jogavam Atari. Hoje aos 40 anos tenho a n&iacute;tida percep&ccedil;&atilde;o de como aquele pequeno desvio foi importante na minha forma&ccedil;&atilde;o. A tecnologia &eacute; algo que empolga as crian&ccedil;as e nem sempre a escola est&aacute; preparada para utilizar os computadores, celulares, tablets, smart tvs, etc no processo de aprendizado.</p>
 
 <p>Ser&aacute; que uma crian&ccedil;a ficaria naturalmente (sem ningu&eacute;m obrigar) noites sem dormir para estudar para uma prova?</p>
 
