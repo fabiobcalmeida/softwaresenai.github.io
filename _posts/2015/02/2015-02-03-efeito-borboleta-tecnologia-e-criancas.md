@@ -5,19 +5,7 @@ description: Tecnologia e Crianças
 author-name: Dr. Eduardo M. F. Jorge
 github: eduardojorge
 layout: post
-files:
-  - link: "http://farm8.staticflickr.com/7324/16432903641_2c98375211_b.jpg"
-    thumbnail: "http://farm8.staticflickr.com/7324/16432903641_2c98375211_t.jpg"
-    medium: "http://farm8.staticflickr.com/7324/16432903641_2c98375211_z.jpg"
-    small: "http://farm8.staticflickr.com/7324/16432903641_2c98375211_n.jpg"
-    title: Appet.png
-    $$hashKey: 03U
-  - link: "http://farm8.staticflickr.com/7331/16248775847_fe9de03a69_b.jpg"
-    thumbnail: "http://farm8.staticflickr.com/7331/16248775847_fe9de03a69_t.jpg"
-    medium: "http://farm8.staticflickr.com/7331/16248775847_fe9de03a69_z.jpg"
-    small: "http://farm8.staticflickr.com/7331/16248775847_fe9de03a69_n.jpg"
-    title: ataque-naval.png
-    $$hashKey: 03X
+files: []
 created_date: "2015-02-03T09:35:52-03:00"
 published: true
 image: ""
@@ -38,20 +26,4 @@ releated_posts: []
 
 <p>Lembrando que possuir um tablet (pe&ccedil;a de marketing de muitas escolas) n&atilde;o significa que teremos o efeito borboleta, para que as asas se mexiam a crian&ccedil;a tem que querer construir algo, o ser humano &eacute; motivado por problemas pr&aacute;ticos. Portanto, se bem aplicada a tecnologia pode ajudar no efeito borboleta das nossas crian&ccedil;as. Sugiro para os que gostaram do tema baixar a ferramenta <a href="http://scratch.mit.edu/" target="_blank"><strong><em>scratch</em></strong></a> . Este software permite que crian&ccedil;as fa&ccedil;am pequenos programas e jogos para computadores de forma l&uacute;dica.</p>
 
-<p>Um exemplo de dois projetos desenvolvidos pela &aacute;rea de software do `<a href="http://portais.fieb.org.br/senai/senai-na-sua-cidade/salvador/cimatec.html">SENAI CIMATEC</a>`&nbsp;segundo esses conceitos por adolescentes de 16 anos pode ser visto nos aplicativos:</p>
-
-<p>&nbsp; <a href="https://play.google.com/store/apps/details?id=br.org.fieb.ads.appet"><img alt="Appet" height="202" src="http://farm8.staticflickr.com/7324/16432903641_2c98375211_n.jpg" width="126" /></a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://play.google.com/store/apps/details?id=br.org.fieb.senai.ads.ataquenaval"><img class="enable ng-scope" ng-click="insertImageCKEditor(file)" ng-repeat="file in files" ng-show="_index === $index" ng-src="http://farm8.staticflickr.com/7331/16248775847_fe9de03a69_n.jpg" src="http://farm8.staticflickr.com/7331/16248775847_fe9de03a69_n.jpg" style="line-height: 20.7999992370605px;" /></a></p>
-
-<p><span style="line-height: 20.7999992370605px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `</span>Appet<span style="line-height: 20.7999992370605px;">` &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `</span><span style="line-height: 20.7999992370605px;">Ataque Naval</span><span style="line-height: 20.7999992370605px;">`</span></p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
+<p>Um exemplo de dois projetos desenvolvidos pela &aacute;rea de software do `<a href="http://portais.fieb.org.br/senai/senai-na-sua-cidade/salvador/cimatec.html">SENAI CIMATEC</a>`&nbsp;segundo esses conceitos por adolescentes de 16 anos pode ser visto nos aplicativos: <a href="https://play.google.com/store/apps/details?id=br.org.fieb.ads.appet">Appet </a>e <a href="https://play.google.com/store/apps/details?id=br.org.fieb.senai.ads.ataquenaval">Ataque Naval</a>;</p>
