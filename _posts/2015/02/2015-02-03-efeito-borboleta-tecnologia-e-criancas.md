@@ -5,7 +5,10 @@ description: Tecnologia e Crianças
 author-name: Dr. Eduardo M. F. Jorge
 github: eduardojorge
 layout: post
-files: []
+files:
+  - thumbnail: ""
+    small: ""
+    $$hashKey: "047"
 created_date: "2015-02-03T09:35:52-03:00"
 published: true
 image: ""
@@ -26,4 +29,4 @@ releated_posts: []
 
 <p>Lembrando que possuir um tablet (pe&ccedil;a de marketing de muitas escolas) n&atilde;o significa que teremos o efeito borboleta, para que as asas se mexiam a crian&ccedil;a tem que querer construir algo, o ser humano &eacute; motivado por problemas pr&aacute;ticos. Portanto, se bem aplicada a tecnologia pode ajudar no efeito borboleta das nossas crian&ccedil;as. Sugiro para os que gostaram do tema baixar a ferramenta <a href="http://scratch.mit.edu/" target="_blank"><strong><em>scratch</em></strong></a> . Este software permite que crian&ccedil;as fa&ccedil;am pequenos programas e jogos para computadores de forma l&uacute;dica.</p>
 
-<p>Um exemplo de dois projetos desenvolvidos pela &aacute;rea de software do <a href="http://portais.fieb.org.br/senai/senai-na-sua-cidade/salvador/cimatec.html">`SENAI CIMATEC`</a>&nbsp;segundo esses conceitos por adolescentes de 16 anos pode ser visto nos aplicativos: <a href="https://play.google.com/store/apps/details?id=br.org.fieb.ads.appet">Appet </a>e <a href="https://play.google.com/store/apps/details?id=br.org.fieb.senai.ads.ataquenaval">Ataque Naval</a>;</p>
+<p>Um exemplo de dois projetos desenvolvidos pela &aacute;rea de software do <a href="http://portais.fieb.org.br/senai/senai-na-sua-cidade/salvador/cimatec.html">SENAI CIMATEC</a>&nbsp;segundo esses conceitos por adolescentes de 16 anos pode ser visto nos aplicativos: <a href="https://play.google.com/store/apps/details?id=br.org.fieb.ads.appet">Appet </a>e <a href="https://play.google.com/store/apps/details?id=br.org.fieb.senai.ads.ataquenaval">Ataque Naval</a>.</p>
