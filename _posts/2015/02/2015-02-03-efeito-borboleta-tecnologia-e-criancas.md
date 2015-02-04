@@ -1,10 +1,15 @@
 ---
+layout: post
 date: "2015-02-03T09:06:30-03:00"
 title: "Efeito Borboleta: Tecnologia e Crianças"
 description: Tecnologia e Crianças
+category: Inovação
 author-name: Dr. Eduardo M. F. Jorge
 github: eduardojorge
-layout: post
+tags:
+- crianças
+- tecnolgia
+- aplicativo
 files:
   - link: "http://farm9.staticflickr.com/8567/16250037319_7bccddf49a_b.jpg"
     thumbnail: "http://farm9.staticflickr.com/8567/16250037319_7bccddf49a_t.jpg"
@@ -15,7 +20,6 @@ files:
 created_date: "2015-02-03T09:35:52-03:00"
 published: true
 image: "http://farm9.staticflickr.com/8567/16250037319_7bccddf49a_n.jpg"
-releated_posts: []
 
 ---
 <p>&nbsp;</p>

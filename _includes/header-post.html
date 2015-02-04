@@ -1,21 +1,11 @@
-<!-- <div class="line"> -->
-	{% include logo.html %}
-<!-- </div> -->
+{% include logo.html %}
 <header class="header-post" role="banner">
-	<div class="post-content">
-		<!-- <meta itemprop="datePublished" content="{{ page.date }}">
-		{% if page.date %}
-			<p class="date">{{ page.date | date_to_string }}</p>
-		{% endif %} -->
-		<h1 class="post-title" itemprop="name">{{ page.title }}</h1>
-		<!--<p itemprop="description" class="subtitle">{{ page.description }}</p>-->
-		
+	<div class="post-content">	
+		<h1 class="post-title" itemprop="name">{{ page.title }}</h1>				
 		<div class="author-post">
-			<div class="photo">				
-					<img itemprop="photo" src="https://avatars.githubusercontent.com/{{ page.github }}" alt="{{ page.author-name }}">
-					<span class="author-name">
-					{{ page.author-name }}
-					</span>				
+			<div class="photo" itemprop="author" itemscope itemtype="http://schema.org/Person">				
+				<img itemprop="image" src="https://avatars.githubusercontent.com/{{ page.github }}" alt="{{ page.author-name }}">
+				<span class="author-name" itemprop="name"> {{ page.author-name }} </span>				
 			</div>
 		</div>
 	</div>
