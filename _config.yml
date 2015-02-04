@@ -4,8 +4,8 @@ email: senai.software@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Um blog para compartilhamento de conhecimento sobre desenvolvimento de software.
 baseurl: ""
-url: "senaisoftware.github.io" # the base hostname & protocol for your site
-twitter_username: senaisoftware
+url: "softwaresenai.github.io" # the base hostname & protocol for your site
+twitter_username: softwaresenai
 github_username:  senaisoftware
 
 # Build settings
