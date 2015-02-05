@@ -4,6 +4,8 @@ title:  "Avaliação de processos seguros para desenvolvimento de software"
 date:   2015-02-02 15:33:36
 description: "avaliação de processos seguros para desenvolvimento de software"
 category: segurança
+gplus-username: FábioElísio
+twitter-username: felisio
 tags:
 - segurança
 - software

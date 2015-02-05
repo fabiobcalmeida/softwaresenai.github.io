@@ -6,6 +6,8 @@ description: "Introdução ao Vagrant"
 category: infra
 github: ruioliver
 author-name: Rui Anderson
+twitter-username: ruianderson
+gplus-username: RuiAnderson
 tags:
 - vagrant
 - windows
@@ -15,6 +17,7 @@ tags:
 image: "https://www.vagrantup.com/images/vagrant_header_background-482a12a7.png"
 ---
 ![Vagrant](/assets/img/introducao-vagrant-ambiente-windows/vagrant.png)
+
 
 Tendo em vista o universo de desenvolvimento com várias tecnologias distintas, se faz necessário a criação de um ciclo de implementação que possibilite de forma flexível uma maior gestão e controle dos ambientes.
  

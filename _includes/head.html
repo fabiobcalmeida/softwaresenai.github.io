@@ -3,40 +3,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <link rel="author" href="https://plus.google.com/+MarcusViniciusSoftwareDeveloper?rel=author">
+   
+   <!-- author -->   
+    <link rel="author" href="https://plus.google.com/+{{ page.gplus-username }}?rel=author">
+    <meta name="autor" content="{{ page.author-name }}" />
 
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@softwaresenai">
+    <meta name="twitter:site" content="@{{ page.twitter-username || site.twitter-username }}" />
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    
     {% if page.image %}
-        <meta property="twitter:image:src" content="{{ site.url }}{{page.image }}">
+        <meta name="twitter:image" content="{{ page.image || site.image }}" />
     {% else %}
         <meta property="twitter:image:src" content="{{ "/assets/img/software-senai.png" | prepend: site.baseurl | prepend: site.url }}">
     {% endif %}
 
     <!-- Social: Facebook / Open Graph -->
-    <meta property="fb:admins" content="1669052591" />    
-    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}blog{% endif %}">
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="fb:admins" content="1669052591" />
+    <meta property="og:url"    content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:type"   content="{% if page.layout == 'post' %}article{% else %}blog{% endif %}">
+    <meta property="og:title"  content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:site_name" content="Software Senai">
+   
     {% if page.image %}
-    <meta property="og:image" content="{{ site.url }}{{page.image }}">
+        <!-- <meta property="og:image"  content="{{ site.url }}{{ page.image }}"> -->
+        <meta property="og:image" content="{{ page.image || site.image }}" />
     {% else %}
-    <meta property="og:image" content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
+        <meta property="og:image"  content="{{ "/assets/img/software-senai.png" | prepend: site.baseurl | prepend: site.url }}">
     {% endif %}
+    
     <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:site_name" content="{{ site.title }}">
+    
     {% if page.date %}
-    <meta property="article:author" content="https://www.facebook.com/mvfsilva91" />
-    <meta property="article:publisher" content="https://www.facebook.com/mvfsilva91" />
-    <meta property="article:published_time" content="{{ page.date }}" />
-    {% for tag in page.tags %}
-        <meta property="article:tag" content="{{ tag }}">
-    {% endfor%}
+        <meta property="article:author"     content="https://www.facebook.com/softwaresenai" />
+        <meta property="article:publisher"  content="https://www.facebook.com/softwaresenai" />
+        <meta property="article:published_time" content="{{ page.date }}" />
+        {% for tag in page.tags %}
+            <meta property="article:tag" content="{{ tag }}">
+        {% endfor%}
     {% endif %}
 
       <!-- Social: Google+ / Schema.org  -->
