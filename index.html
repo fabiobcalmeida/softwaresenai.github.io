@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<section class="main" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+<section class="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
 <!-- <div class="row"> -->
 {% for post in site.posts %}
-    <article class="post-list item" role="article" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+    <article class="post-list item" role="article" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
         <div class="grid">
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <a class="post-link" itemprop="url" href="{{ post.url | prepend: site.baseurl }}">
                 <meta itemprop="datePublished" content="{{post.date}}">
                 <time datetime="{{ post.date | date_to_xmlschema }}">
                     <h3>
@@ -17,7 +17,7 @@ layout: default
                     </h3>
                 </time>
                 <p class="post-category">{{ post.category }}</p>
-                <p class="post-title" itemprop="name">{{ post.title }}</p>
+                <p class="post-title" itemprop="title">{{ post.title }}</p>
                 <div class="author-post" itemprop="author" itemscope itemtype="http://schema.org/Person">
                     <img itemprop="image"  src="https://avatars.githubusercontent.com/{{ post.github}}" alt="{{ post.author-name }}">
                     <span itemprop="name">{{ post.author-name }}</span>
